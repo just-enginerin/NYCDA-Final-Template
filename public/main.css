@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: grid;
+    grid-template: auto / auto auto auto auto;
+    width: 80%;
+    margin: 1em auto;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: .5px;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: gray;
+    transition: .5s;
+}
